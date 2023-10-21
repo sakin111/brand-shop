@@ -1,0 +1,22 @@
+.image-container {
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.image-container img {
+    display: inline-block;
+    animation: slideRightToLeft 5s linear infinite;
+    margin-left: 30px;
+}
+
+@keyframes slideRightToLeft {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
